@@ -1,26 +1,40 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --milano-blue: 193 95% 68%;
+  --oslo-orange: 14 90% 60%;
+  --background: 222 47% 11%;
+  --foreground: 213 31% 91%;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply antialiased;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+/* Glassmorphism tehoste korteille */
+.glass-card {
+  @apply backdrop-blur-xl bg-black/60 border border-white/20;
+}
+
+/* Italialaiset värit muuttujina, jotta niitä on helppo käyttää */
+.text-ita-green {
+  color: #009246;
+}
+
+.text-ita-red {
+  color: #ce2b37;
+}
+
+.border-ita-green {
+  border-color: #009246;
+}
+
+.border-ita-red {
+  border-color: #ce2b37;
 }

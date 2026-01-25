@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦁 MILANO CORTINA 2026 - PRODUCTION CONTROL CENTER
 
-## Getting Started
+Tämä ei ole vain aikataulusovellus. Tämä on **Mother Lion Control Center** – sähköinen, Rock 'n' Roll -henkinen hermokeskus Milano Cortina 2026 talviolympialaisten tuotannon hallintaan. 
 
-First, run the development server:
+Rakennettu kestämään kisapaikkojen painetta, näyttämään upealta iPhone 15:n ruudulla ja tarjoamaan salamannopean pääsyn kriittiseen tuotantotietoon.
 
-```bash
+---
+
+## ⚡️ CORE VIBE
+* **Neon & Night:** Syvän tumma tausta, sähköinen Cyan (Milano) ja Mother Lion Pink.
+* **Rock 'n' Roll UI:** Massiivinen typografia, lasimaiset pinnat (Glassmorphism) ja sulavat animaatiot.
+* **Mobile First:** Optimoitu erityisesti kenttäkäyttöön (iPhone 15 / Chrome).
+
+---
+
+## 🚀 OMINAISUUDET
+
+### 🏠 Public Dashboard
+* **Live Stats:** Reaaliaikainen seuranta tuotantopäivistä ja tapahtumien määrästä.
+* **Secure Access:** Katseluoikeus suojattu yhdellä yhteisellä koodilla.
+* **Dynamic Timetable:** Selkeä, päiväkohtainen näkymä tuotannon kulkuun.
+
+### 🔐 Admin Vault (Mother Lion Access)
+* **Control Center:** Keskitetty näkymä kaikkien 21 tuotantopäivän hallintaan.
+* **Live Editing:** Lisää, muokkaa tai poista tuotantotapahtumia livenä.
+* **Security Management:** Hallitse katselija- ja admin-salasanoja suoraan käyttöliittymästä.
+
+---
+
+## 🛠 TEKNOLOGIAPINO
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **Database:** [MongoDB Atlas](https://www.mongodb.com/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 📦 ASENNUS JA KÄYTTÖÖNOTTO
+
+1. **Kloonaa repo:**
+   ```bash
+   git clone [https://github.com/sinun-kayttajatunnus/milano-2026-schedule.git](https://github.com/sinun-kayttajatunnus/milano-2026-schedule.git)
+
+2. Asenna riippuvuudet:
+npm install
+
+3. Ympäristömuuttujat (.env.local): Luo tiedosto .env.local ja lisää sinne seuraavat tiedot:
+MONGODB_URI=sinun_mongodb_yhteysmerkkijono
+
+4. Käynnistä kehitysympäristö:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🦁 MOTHER LION PROTOCOLS
+Tämä projekti noudattaa tiukkaa "Ei kompromisseja" -linjaa visuaalisuuden ja käytettävyyden suhteen. Jokainen pikseli on hiottu palvelemaan tuotantotiimiä kisojen kiihkeimmässä keskiössä.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Milano Cortina 2026 – Let's Rock the Ice! 🎿🔥
