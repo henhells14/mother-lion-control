@@ -37,14 +37,22 @@ export default function LoginForm() {
     };
 
     return (
-        <div className="space-y-6">
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+        <div className="space-y-6" suppressHydrationWarning>
+            {/* 1. Lisätty suppressHydrationWarning formiin */}
+            <form 
+                onSubmit={handleSubmit} 
+                className="flex flex-col gap-4" 
+                suppressHydrationWarning
+            >
                 <div className="relative">
+                    {/* 2. Lisätty suppressHydrationWarning ja autoComplete inputiin */}
                     <input
                         type="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        placeholder="Enter password to wiew the schedule"
+                        placeholder="Enter password to view the schedule"
+                        autoComplete="current-password"
+                        suppressHydrationWarning
                         className="w-full px-6 py-3 bg-white text-slate-900 rounded-md shadow-lg border-2 border-transparent focus:border-[hsl(var(--milano-blue))] outline-none placeholder:text-slate-400 font-medium"
                         required
                     />
